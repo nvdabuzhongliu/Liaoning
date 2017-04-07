@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9BBB7495E2BC88823F5D5A954B2469C5F89BEC0E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "395FD029FB9FC5201A78261BF965DE653D6899DC" : 9223372036854775807,
+    "9BBB7495E2BC88823F5D5A954B2469C5F89BEC0E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "76E7C0B5-0938-476B-BCDA-28EEFD6424A2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "395FD029FB9FC5201A78261BF965DE653D6899DC" : "",
+    "9BBB7495E2BC88823F5D5A954B2469C5F89BEC0E" : "Liaoning\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Liaoning",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Liaoning.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nvdabuzhongliu\/Download.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "395FD029FB9FC5201A78261BF965DE653D6899DC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nvdabuzhongliu\/Liaoning.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9BBB7495E2BC88823F5D5A954B2469C5F89BEC0E"
+    }
+  ]
+}

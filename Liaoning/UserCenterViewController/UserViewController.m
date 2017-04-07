@@ -7,12 +7,14 @@
 //
 
 #import "UserViewController.h"
+#import "PubTableView.h"
+#import <Masonry.h>
 
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
 
-@interface UserViewController ()<UITableViewDelegate,UITableViewDataSource>
-@property(strong,nonatomic)UITableView * userCenterTable;
+@interface UserViewController ()
 @property(strong,nonatomic)NSArray * cellNameArray;
 
 
@@ -24,30 +26,25 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
-    [self setUI];
     _cellNameArray = @[@"用户",@"日常信息统计",@"我的下载",@"还原",@"引导说明"];
+    [self setUI];
+
 }
+
 
 -(void) setUI
 {
-    self.userCenterTable = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight) style:UITableViewStylePlain];
-    [self.view addSubview:self.userCenterTable];
-}
-
-
--(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-    return 1;
-}
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return _cellNameArray.count;
-}
-
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    WS(ws)
     
-    UITableViewCell * cell = [UITableViewCell alloc]initWithStyle:<#(UITableViewCellStyle)#> reuseIdentifier:<#(nullable NSString *)#>
-    return nil;
+    PubTableView * jwTableView = [[PubTableView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight) style:UITableViewStylePlain content:_cellNameArray];
+    jwTableView.tag = 1000;
+    [self.view addSubview:jwTableView];
+    [jwTableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(ws.view).with.insets(UIEdgeInsetsMake(0, 0, 0, 0));
+    }];
 }
+
+
 
 
 -(void)viewWillAppear:(BOOL)animated

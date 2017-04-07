@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PubTableView : UITableView
+@interface PubTableView : UITableView<UITableViewDataSource,UITableViewDelegate>
 
-@property(strong,nonatomic) NSArray * contentArray;
-@property(strong,nonatomic) NSDictionary * grounpContent;
+-(instancetype)initWithFrame:(CGRect)frame style:(UITableViewStyle)style content:(NSArray *) contentArray;
 
+@property(strong,nonatomic)NSMutableArray * groups;
+@property(nonatomic,assign)float cellHeight;
 @end

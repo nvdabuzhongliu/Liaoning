@@ -8,6 +8,8 @@
 
 #import "MainViewController.h"
 #import "UserViewController.h"
+#import "MapListViewController.h"
+
 #import <Masonry.h>
 
 #define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
@@ -24,7 +26,7 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     [self setUI];
-
+    NSLog(@"%@",NSStringFromCGRect(self.view.frame));
 }
 
 - (void)setUI
@@ -122,7 +124,8 @@
 
 - (void) clickMap
 {
-    
+    MapListViewController * mapList = [[MapListViewController alloc]init];
+    [self.navigationController pushViewController:mapList animated:YES];
 }
 
 - (void) clickDocument

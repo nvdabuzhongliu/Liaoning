@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A7338C61E96322200A3AFCD /* JWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7338C51E96322200A3AFCD /* JWTableViewCell.m */; };
+		2A7338C91E9634D800A3AFCD /* TextArrowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7338C81E9634D800A3AFCD /* TextArrowCell.m */; };
+		2A7338CC1E9635D400A3AFCD /* JWCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7338CB1E9635D400A3AFCD /* JWCellFactory.m */; };
+		2AE1800C1E9763A800C11CF6 /* JWCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE1800B1E9763A800C11CF6 /* JWCollectionView.m */; };
+		2AE180101E97687200C11CF6 /* MapListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE1800F1E97687200C11CF6 /* MapListViewController.m */; };
+		2AE180131E97721600C11CF6 /* JWCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE180121E97721600C11CF6 /* JWCollectionViewCell.m */; };
+		2AE180161E9773D000C11CF6 /* Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AE180141E9773D000C11CF6 /* Selected.png */; };
+		2AE180171E9773D000C11CF6 /* Unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AE180151E9773D000C11CF6 /* Unselected.png */; };
+		2AE1801A1E977A1D00C11CF6 /* MapModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE180191E977A1D00C11CF6 /* MapModel.m */; };
+		2AE1801C1E978B3700C11CF6 /* delete_test.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AE1801B1E978B3700C11CF6 /* delete_test.png */; };
+		2AE180231E978C0400C11CF6 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE180201E978C0400C11CF6 /* YYFPSLabel.m */; };
+		2AE180241E978C0400C11CF6 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE180221E978C0400C11CF6 /* YYWeakProxy.m */; };
 		2AEE0FC21E9480B10065A3B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE0FC11E9480B10065A3B4 /* main.m */; };
 		2AEE0FC51E9480B10065A3B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE0FC41E9480B10065A3B4 /* AppDelegate.m */; };
 		2AEE0FC81E9480B10065A3B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE0FC71E9480B10065A3B4 /* ViewController.m */; };
@@ -47,6 +59,27 @@
 
 /* Begin PBXFileReference section */
 		0AFE7444688CD3D605840342 /* libPods-Liaoning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Liaoning.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7338C41E96322200A3AFCD /* JWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTableViewCell.h; sourceTree = "<group>"; };
+		2A7338C51E96322200A3AFCD /* JWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTableViewCell.m; sourceTree = "<group>"; };
+		2A7338C71E9634D800A3AFCD /* TextArrowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextArrowCell.h; sourceTree = "<group>"; };
+		2A7338C81E9634D800A3AFCD /* TextArrowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextArrowCell.m; sourceTree = "<group>"; };
+		2A7338CA1E9635D400A3AFCD /* JWCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCellFactory.h; sourceTree = "<group>"; };
+		2A7338CB1E9635D400A3AFCD /* JWCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCellFactory.m; sourceTree = "<group>"; };
+		2AE1800A1E9763A800C11CF6 /* JWCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCollectionView.h; sourceTree = "<group>"; };
+		2AE1800B1E9763A800C11CF6 /* JWCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCollectionView.m; sourceTree = "<group>"; };
+		2AE1800E1E97687200C11CF6 /* MapListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapListViewController.h; sourceTree = "<group>"; };
+		2AE1800F1E97687200C11CF6 /* MapListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapListViewController.m; sourceTree = "<group>"; };
+		2AE180111E97721600C11CF6 /* JWCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCollectionViewCell.h; sourceTree = "<group>"; };
+		2AE180121E97721600C11CF6 /* JWCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCollectionViewCell.m; sourceTree = "<group>"; };
+		2AE180141E9773D000C11CF6 /* Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Selected.png; sourceTree = "<group>"; };
+		2AE180151E9773D000C11CF6 /* Unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unselected.png; sourceTree = "<group>"; };
+		2AE180181E977A1D00C11CF6 /* MapModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapModel.h; sourceTree = "<group>"; };
+		2AE180191E977A1D00C11CF6 /* MapModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapModel.m; sourceTree = "<group>"; };
+		2AE1801B1E978B3700C11CF6 /* delete_test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete_test.png; sourceTree = "<group>"; };
+		2AE1801F1E978C0400C11CF6 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		2AE180201E978C0400C11CF6 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		2AE180211E978C0400C11CF6 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		2AE180221E978C0400C11CF6 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 		2AEE0FBD1E9480B10065A3B4 /* Liaoning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Liaoning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AEE0FC11E9480B10065A3B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2AEE0FC31E9480B10065A3B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +140,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AADE2321E9760B100B533EC /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				2AE1800A1E9763A800C11CF6 /* JWCollectionView.h */,
+				2AE1800B1E9763A800C11CF6 /* JWCollectionView.m */,
+				2AE180111E97721600C11CF6 /* JWCollectionViewCell.h */,
+				2AE180121E97721600C11CF6 /* JWCollectionViewCell.m */,
+				2AE180181E977A1D00C11CF6 /* MapModel.h */,
+				2AE180191E977A1D00C11CF6 /* MapModel.m */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		2AE1800D1E9767C000C11CF6 /* MapPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2AE1800E1E97687200C11CF6 /* MapListViewController.h */,
+				2AE1800F1E97687200C11CF6 /* MapListViewController.m */,
+			);
+			path = MapPageViewController;
+			sourceTree = "<group>";
+		};
+		2AE1801D1E978BF900C11CF6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2AE1801E1E978C0400C11CF6 /* YYFPSLabel */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2AE1801E1E978C0400C11CF6 /* YYFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				2AE1801F1E978C0400C11CF6 /* YYFPSLabel.h */,
+				2AE180201E978C0400C11CF6 /* YYFPSLabel.m */,
+				2AE180211E978C0400C11CF6 /* YYWeakProxy.h */,
+				2AE180221E978C0400C11CF6 /* YYWeakProxy.m */,
+			);
+			path = YYFPSLabel;
+			sourceTree = "<group>";
+		};
 		2AEE0FB41E9480B00065A3B4 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +208,8 @@
 		2AEE0FBF1E9480B10065A3B4 /* Liaoning */ = {
 			isa = PBXGroup;
 			children = (
+				2AE1800D1E9767C000C11CF6 /* MapPageViewController */,
+				2AADE2321E9760B100B533EC /* CollectionView */,
 				2AEE10111E94D67C0065A3B4 /* TableView */,
 				2AEE100D1E94D06C0065A3B4 /* UserCenterViewController */,
 				2AEE0FFC1E948C420065A3B4 /* Resources */,
@@ -189,6 +265,7 @@
 		2AEE0FFC1E948C420065A3B4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2AE1801D1E978BF900C11CF6 /* Tools */,
 				2AEE0FFD1E948C420065A3B4 /* Images */,
 			);
 			path = Resources;
@@ -197,6 +274,9 @@
 		2AEE0FFD1E948C420065A3B4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2AE1801B1E978B3700C11CF6 /* delete_test.png */,
+				2AE180141E9773D000C11CF6 /* Selected.png */,
+				2AE180151E9773D000C11CF6 /* Unselected.png */,
 				2AEE100B1E94C6310065A3B4 /* btn_weather.png */,
 				2AEE0FFE1E948C580065A3B4 /* btn_back.png */,
 				2AEE10071E94B87A0065A3B4 /* btn_setting.png */,
@@ -221,6 +301,12 @@
 			children = (
 				2AEE10121E94D6920065A3B4 /* PubTableView.h */,
 				2AEE10131E94D6920065A3B4 /* PubTableView.m */,
+				2A7338C41E96322200A3AFCD /* JWTableViewCell.h */,
+				2A7338C51E96322200A3AFCD /* JWTableViewCell.m */,
+				2A7338C71E9634D800A3AFCD /* TextArrowCell.h */,
+				2A7338C81E9634D800A3AFCD /* TextArrowCell.m */,
+				2A7338CA1E9635D400A3AFCD /* JWCellFactory.h */,
+				2A7338CB1E9635D400A3AFCD /* JWCellFactory.m */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -358,8 +444,11 @@
 				2AEE0FCD1E9480B10065A3B4 /* Assets.xcassets in Resources */,
 				2AEE10021E9496690065A3B4 /* bg_main_hor.jpg in Resources */,
 				2AEE0FCB1E9480B10065A3B4 /* Main.storyboard in Resources */,
+				2AE1801C1E978B3700C11CF6 /* delete_test.png in Resources */,
 				2AEE10081E94B87A0065A3B4 /* btn_setting.png in Resources */,
 				2AEE100A1E94B8880065A3B4 /* btn_user.png in Resources */,
+				2AE180161E9773D000C11CF6 /* Selected.png in Resources */,
+				2AE180171E9773D000C11CF6 /* Unselected.png in Resources */,
 				2AEE0FFF1E948C580065A3B4 /* btn_back.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,11 +522,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AE1800C1E9763A800C11CF6 /* JWCollectionView.m in Sources */,
+				2A7338C61E96322200A3AFCD /* JWTableViewCell.m in Sources */,
+				2A7338CC1E9635D400A3AFCD /* JWCellFactory.m in Sources */,
 				2AEE0FC81E9480B10065A3B4 /* ViewController.m in Sources */,
+				2AE180241E978C0400C11CF6 /* YYWeakProxy.m in Sources */,
 				2AEE0FC51E9480B10065A3B4 /* AppDelegate.m in Sources */,
 				2AEE10061E94B13F0065A3B4 /* Permission.m in Sources */,
+				2AE180231E978C0400C11CF6 /* YYFPSLabel.m in Sources */,
 				2AEE10101E94D0850065A3B4 /* UserViewController.m in Sources */,
+				2AE180101E97687200C11CF6 /* MapListViewController.m in Sources */,
+				2AE1801A1E977A1D00C11CF6 /* MapModel.m in Sources */,
+				2AE180131E97721600C11CF6 /* JWCollectionViewCell.m in Sources */,
 				2AEE10141E94D6920065A3B4 /* PubTableView.m in Sources */,
+				2A7338C91E9634D800A3AFCD /* TextArrowCell.m in Sources */,
 				2AEE0FC21E9480B10065A3B4 /* main.m in Sources */,
 				2AEE0FFB1E9485540065A3B4 /* MainViewController.m in Sources */,
 			);
@@ -599,6 +697,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.liaoninggwyt3.gxsn.Liaoning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -615,6 +714,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.liaoninggwyt3.gxsn.Liaoning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

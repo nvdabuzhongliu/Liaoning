@@ -7,20 +7,40 @@
 //
 
 #import "PubTableView.h"
+#import "JWCellFactory.h"
+
+@interface PubTableView ()
+@property(strong,nonatomic) NSArray * array;
+@end
 
 @implementation PubTableView
 
--(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+-(instancetype)initWithFrame:(CGRect)frame style:(UITableViewStyle)style content:(NSArray *)contentArray{
+    if (self = [super initWithFrame:frame style:style]) {
+        _array = contentArray;
+        self.delegate = self;
+        self.dataSource = self;
+        [self setSeparatorStyle:UITableViewCellSeparatorStyleNone];
+        self.cellLayoutMarginsFollowReadableWidth = false; 
+    }
+    return self;
+}
+
+-(NSInteger)numberOfRowsInSection:(NSInteger)section
 {
-    return _grounpContent.count;
-} 
+    return 1;
+}
+
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 0;
+    return _array.count;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    
-    return nil;
+    JWTableViewCell * cell;
+    if (!cell) {
+        cell = [JWCellFactory initWithCellType:@"TextArrow" reuseIdentifier:@"Cell" content:_array[indexPath.row] titleImage:nil accessoryViewType:UITableViewCellAccessoryDisclosureIndicator];
+    }
+    return cell;
 }
 
 @end
