@@ -28,7 +28,6 @@
     self.window.rootViewController = naviController;
     [self.window makeKeyWindow];
     
-    
     return YES;
 }
 

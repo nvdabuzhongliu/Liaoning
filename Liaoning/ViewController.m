@@ -58,7 +58,7 @@
     self.navigationItem.leftBarButtonItems = @[fixedItem, _leftBarButtonItem];
     self.navigationItem.rightBarButtonItem = rightBarbuttonItem;
 //    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"bg_main_hor.jpg"] forBarMetrics:UIBarMetricsDefault];  //设置背景
-
+    
 }
 
 -(void)backViewcontroller{
