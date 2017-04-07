@@ -12,12 +12,19 @@
 
 @protocol JWCollectionViewDataSource <NSObject>
 @required
+
+/**
+ 返回所有cell
+
+ @return 必须实现数据源
+ */
 - (NSMutableArray *) returnAllGroups;
 @end
 
 @interface JWCollectionView : UICollectionView<UICollectionViewDataSource,UICollectionViewDelegate>
 
 @property(nonatomic, copy) void (^clickCell)(NSInteger  indexPath);
-@property(nonatomic,assign) BOOL isMutGroups;
 @property(weak,nonatomic) id <JWCollectionViewDataSource>jwDataSource;
+
+@property(nonatomic,assign) BOOL isMutGroups;
 @end

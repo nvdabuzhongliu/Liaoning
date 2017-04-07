@@ -23,7 +23,8 @@
 
 -(instancetype)initWithFrame:(CGRect)frame collectionViewLayout:(UICollectionViewLayout *)layout{
     if (self = [super initWithFrame:frame collectionViewLayout:layout]) {
-        self.backgroundColor = [UIColor yellowColor];
+        
+        self.backgroundColor = [UIColor grayColor];
         self.delegate = self;
         self.dataSource = self;
         self.contentSize = CGSizeMake(kScreenWidth, kScreenHeight - 1);
@@ -80,7 +81,7 @@
 }
 
 
--(NSMutableArray *)items{
+-(NSMutableArray *)items{//待测试
     if (_oldItems == _items && _items != nil) {
         return _items;
     }
