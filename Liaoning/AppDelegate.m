@@ -28,11 +28,8 @@
     self.window.rootViewController = naviController;
     [self.window makeKeyWindow];
     
-<<<<<<< HEAD
     NSLog(@"11");
-    
-=======
->>>>>>> 17ebcd6daea84ed9e1c5b301b38a77a94c49189a
+    NSLog(@"add.test");
     return YES;
 }
 
