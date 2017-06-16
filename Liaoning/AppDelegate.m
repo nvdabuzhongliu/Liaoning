@@ -28,6 +28,7 @@
     self.window.rootViewController = naviController;
     [self.window makeKeyWindow];
     
+    NSLog(@"11");
     
     return YES;
 }
