@@ -29,7 +29,6 @@
     [self.window makeKeyWindow];
     
     NSLog(@"11");
-    NSLog(@"add.test");
     return YES;
 }
 
